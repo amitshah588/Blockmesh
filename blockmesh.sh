@@ -39,7 +39,7 @@ mkdir -p target/release
 
 # Download and extract the latest BlockMesh CLI
 echo "Downloading and extracting BlockMesh CLI..."
-curl -L https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.415/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz -o blockmesh-cli.tar.gz
+curl -L https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.489/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz -o blockmesh-cli.tar.gz
 tar -xzf blockmesh-cli.tar.gz -C target/release --strip-components=1
 
 # Verify extraction results
